@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ильшат Шагбанов - Резюме</title>
+        <link href="style.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    
+    <body>
+        <div class="container">
+            <!-- Header Section -->
+            <header class="header">
+                <div class="profile-section">
+                    <img src="IMG_9881.jpg" alt="Ильшат Шагбанов" class="avatar" />
+                    <div class="profile-info">
+                        <h1>Ильшат Шагбанов</h1>
+                        <h2>Инженер / Разработчик</h2>
+                        <p class="summary">
+                            Изучаю веб-разработку (HTML, CSS, JavaScript) для расширения профессиональных возможностей. 
+                            Стремлюсь к постоянному развитию и изучению новых технологий.
+                        </p>
+                        
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fab fa-telegram"></i>
+                                <a href="https://t.me/nnlbtz" target="_blank">@nnlbtz</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/Shifa72" target="_blank">github.com/Shifa72</a>
+                            </div>
+                        </div>
+                        
+                        <div class="action-buttons">
+                            <button class="btn btn-secondary" onclick="printResume()">
+                                <i class="fas fa-print"></i> Печать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Featured Projects -->
+                <div class="featured-projects">
+                    <h3><i class="fas fa-star"></i> Ключевые проекты</h3>
+                    <div class="projects-preview">
+                        <div class="project-preview-item">
+                            <div class="project-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                                        <div class="project-info">
+                                        <h4>Персональное резюме</h4>
+                                        <p>Адаптивный сайт-портфолио</p>
+                                        <div class="project-tech-preview">
+                                            <span>HTML</span>
+                                            <span>CSS</span>
+                                            <span>JS</span>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="project-preview-item">
+                            <div class="project-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="project-info">
+                                <h4><a href="https://tyumen-science.ru" target="_blank">Tyumen-science.ru</a></h4>
+                                <p>Сайт научного журнала</p>
+                                <div class="project-tech-preview">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JS</span>
+                                    <span>Node.js</span>
+                                    <span>PostgreSQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Learning Resources -->
+                <div class="learning-resources">
+                    <h3><i class="fas fa-book"></i> Изучаемая литература</h3>
+                    <div class="books-grid">
+                        <div class="book-item">
+                            <div class="book-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="book-info">
+                                <h4>Компьютерные сети</h4>
+                                <p>Эндрю Таненбаум</p>
+                            </div>
+                        </div>
+                        <div class="book-item">
+                            <div class="book-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="book-info">
+                                <h4>JavaScript: Полное руководство</h4>
+                                <p>Дэвид Флэнаган</p>
+                            </div>
+                        </div>
+                        <div class="book-item">
+                            <div class="book-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="book-info">
+                                <h4>Node.js в действии</h4>
+                                <p>Майк Кантелон</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </header>
+
+            <!-- Skills Section -->
+            <section class="card bg-blue">
+                <h2><i class="fas fa-code"></i> Навыки</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Технические навыки</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Профессиональные навыки</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Инженерия</span>
+                            <span class="skill-tag">Анализ данных</span>
+                            <span class="skill-tag">Проектное управление</span>
+                            <span class="skill-tag">Командная работа</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Языки</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Русский</span>
+                            <span class="skill-tag">Английский (B2)</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Education Section -->
+            <section class="card bg-yellow">
+                <h2><i class="fas fa-graduation-cap"></i> Образование</h2>
+                <div class="education-item">
+                    <h3>Высшее техническое образование</h3>
+                    <p>Тюменский Индустриальный Университет</p>
+                    <p>Нефтегазовое Дело</p>
+                    <p class="education-year">2012 - 2018</p>
+                </div>
+            </section>
+
+            <!-- Interests Section -->
+            <section class="card bg-red">
+                <h2><i class="fas fa-heart"></i> Интересы</h2>
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <i class="fas fa-futbol"></i>
+                        <span>Футбол</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-car"></i>
+                        <span>Автомобили</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-music"></i>
+                        <span>Музыка</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Программирование</span>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
